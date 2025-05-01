@@ -59,6 +59,9 @@ class VectorClass
 
         int Length() const { return VectorMax; }
 
+        bool Valid() const { return IsValid; }
+
+        bool Allocated() const { return IsAllocated; }
     protected:
         T * Vector;
         int VectorMax;

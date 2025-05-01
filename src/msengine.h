@@ -1,4 +1,4 @@
-/*******************************************************************************
+﻿/*******************************************************************************
 /*                     O P E N  S O U R C E  --  T S + +                      **
 /*******************************************************************************
  *
@@ -42,6 +42,14 @@ class MSEngine
         MSEngine();
         virtual ~MSEngine();
 
+        void Invalidate(Rect&);
+
+        int Load_Cursor(Surface* pSur);
+
+        // @return: the anim's ID
+        int Attach_Anim(MSAnim*);
+
+        int sub_570C00(MSAnim* pAnim, int a3);
     public:
         int field_4;
         VectorClass<TRect<int>> Rects;
