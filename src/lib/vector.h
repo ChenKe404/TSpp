@@ -910,7 +910,7 @@ class VectorArrayClass
         void Clear_All()
         {
             for (int i = 0; i < CollectionCount; ++i) {
-                Collection[i].Clear()
+                Collection[i].Clear();
             }
         }
 

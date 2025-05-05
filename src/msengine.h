@@ -32,8 +32,9 @@
 #include "vector.h"
 
 
-class MSAnim;
+struct MSAnim;
 class MSSfx;
+class Surface;
 
 
 class MSEngine
@@ -44,12 +45,12 @@ class MSEngine
 
         void Invalidate(Rect&);
 
-        int Load_Cursor(Surface* pSur);
+        int Load_Cursor(Surface*);
 
         // @return: the anim's ID
         int Attach_Anim(MSAnim*);
 
-        int sub_570C00(MSAnim* pAnim, int a3);
+        int Play_Anim(MSAnim*, int nTimeout);
     public:
         int field_4;
         VectorClass<TRect<int>> Rects;

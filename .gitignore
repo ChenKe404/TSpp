@@ -65,3 +65,7 @@ desktop.ini
 *.nam
 *.til
 *.json
+*.user
+
+#Folder
+build
