@@ -51,6 +51,8 @@ class MSEngine
         int Attach_Anim(MSAnim*);
 
         int Play_Anim(MSAnim*, int nTimeout);
+
+        void Stop_Anim(MSAnim*);
     public:
         int field_4;
         VectorClass<TRect<int>> Rects;

@@ -6,7 +6,7 @@
  *
  *  @file          MULTISCORE.H
  *
- *  @authors       CCHyper
+ *  @authors       CCHyper,ChenKe404
  *
  *  @brief         Multiplayer score screen.
  *
@@ -28,12 +28,16 @@
 #pragma once
 
 #include "always.h"
+#include "msengine.h"
 
-
-class MultiScore
+struct MSFont;
+struct MultiScore : public MSEngine
 {
-    public:
-        static void Presentation();
+	static void Presentation();
 
-    public:
+	int nX;
+	int nY;
+	DSurface* pSur;
+	MSFont* pFnt;
+	int field_58;
 };

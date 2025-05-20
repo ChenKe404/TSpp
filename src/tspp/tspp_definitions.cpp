@@ -302,6 +302,7 @@ DEFINE_IMPLEMENTATION(void MSEngine::Invalidate(Rect&), 0x00570DE0);
 DEFINE_IMPLEMENTATION(int MSEngine::Load_Cursor(Surface*), 0x00571070);
 DEFINE_IMPLEMENTATION(int MSEngine::Attach_Anim(MSAnim*), 0x00570A30);
 DEFINE_IMPLEMENTATION(int MSEngine::Play_Anim(MSAnim*, int), 0x00570C00);
+DEFINE_IMPLEMENTATION(void MSEngine::Stop_Anim(MSAnim*), 0x00570B90);
 
 /**
  *  Function definitions

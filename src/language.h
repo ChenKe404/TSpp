@@ -584,28 +584,28 @@
 //
 //
 #define TXT_SHIP_01						547   // +Full Name:---------Coord:---Hgt:-Str:-Ace:-Spd:-Ammo-Arm:-Grp:-Cloak:-Price:-+
-#define TXT_SHIP_02						548   // ¦                  ¦        ¦    ¦    ¦    ¦    ¦    ¦    ¦    ¦      ¦       ¦
-#define TXT_SHIP_03						549   // +Owner:------------+Trigger:+TarCom:--STarCom:-PFace:+Path:--------Try:-Delay:¦
-#define TXT_SHIP_04						550   // ¦                  ¦        ¦        ¦        ¦      ¦            ¦    ¦      ¦
-#define TXT_SHIP_05						551   // +Cargo:----Target:-+Next:---+NavCom:-+SNavCom:+SFace:+PBrk:-HeadTo:--Archive:-¦
-#define TXT_SHIP_06						552   // ¦         ¦        ¦        ¦        ¦        ¦      ¦     ¦        ¦         ¦
-#define TXT_SHIP_07						553   // +Tmr:-St:-Rt:-Stage+Radio:--+Radio Message History:---------------------------¦
-#define TXT_SHIP_08						554   // ¦    ¦   ¦   ¦     ¦        ¦                                                 ¦
-#define TXT_SHIP_09						555   // +Mission:-------Queue:------¦                                                 ¦
-#define TXT_SHIP_10						556   // ¦              ¦            ¦                                                 ¦
-#define TXT_SHIP_11						557   // +-----------------------------------------------------------------------------¦
-#define TXT_SHIP_12						558   // ¦                                                                             ¦
-#define TXT_SHIP_13						559   // +-----------------------------------------------------------------------------¦
-#define TXT_SHIP_14						560   // ¦Is Down     ¦AnimAttached¦Primary     ¦Player Owned¦Initiated   ¦Repairing   ¦
-#define TXT_SHIP_15						561   // ¦To Damage   ¦Falling [  ]¦Loaner      ¦Player Aware¦Deploying   ¦ToSelfRepair¦
-#define TXT_SHIP_16						562   // ¦To Display  ¦Useless     ¦Locked      ¦AI Aware    ¦Firing      ¦            ¦
-#define TXT_SHIP_17						563   // ¦In Limbo    ¦Ticked Off  ¦Recoil      ¦Lemon       ¦Rotating    ¦            ¦
-#define TXT_SHIP_18						564   // ¦Selected    ¦Cloakable   ¦Tethered    ¦Invul [    ]¦Driving     ¦            ¦
-#define TXT_SHIP_19						565   // ¦To Look     ¦Unloading   ¦Formation   ¦            ¦            ¦            ¦
-#define TXT_SHIP_20						566   // ¦Team:----Mmbrs:-Qnt:-Center:--Target:-+Formation:--+------------+------------¦
-#define TXT_SHIP_21						567   // ¦        ¦      ¦    ¦        ¦        ¦            ¦Understrngth¦Moving      ¦
-#define TXT_SHIP_22						568   // +Mission:---------------------+---------------------¦FullStrength¦ForcedActive¦
-#define TXT_SHIP_23						569   // ¦                             ¦                     ¦HasBeen     ¦Reforming   ¦
+#define TXT_SHIP_02						548   // ?                 ?       ?   ?   ?   ?   ?   ?   ?   ?     ?      ?
+#define TXT_SHIP_03						549   // +Owner:------------+Trigger:+TarCom:--STarCom:-PFace:+Path:--------Try:-Delay:?
+#define TXT_SHIP_04						550   // ?                 ?       ?       ?       ?     ?           ?   ?     ?
+#define TXT_SHIP_05						551   // +Cargo:----Target:-+Next:---+NavCom:-+SNavCom:+SFace:+PBrk:-HeadTo:--Archive:-?
+#define TXT_SHIP_06						552   // ?        ?       ?       ?       ?       ?     ?    ?       ?        ?
+#define TXT_SHIP_07						553   // +Tmr:-St:-Rt:-Stage+Radio:--+Radio Message History:---------------------------?
+#define TXT_SHIP_08						554   // ?   ?  ?  ?    ?       ?                                                ?
+#define TXT_SHIP_09						555   // +Mission:-------Queue:------?                                                ?
+#define TXT_SHIP_10						556   // ?             ?           ?                                                ?
+#define TXT_SHIP_11						557   // +-----------------------------------------------------------------------------?
+#define TXT_SHIP_12						558   // ?                                                                            ?
+#define TXT_SHIP_13						559   // +-----------------------------------------------------------------------------?
+#define TXT_SHIP_14						560   // ¦Is Down     ¦AnimAttached¦Primary     ¦Player Owned¦Initiated   ¦Repairing   ?
+#define TXT_SHIP_15						561   // ¦To Damage   ¦Falling [  ]¦Loaner      ¦Player Aware¦Deploying   ¦ToSelfRepair?
+#define TXT_SHIP_16						562   // ¦To Display  ¦Useless     ¦Locked      ¦AI Aware    ¦Firing      ?           ?
+#define TXT_SHIP_17						563   // ¦In Limbo    ¦Ticked Off  ¦Recoil      ¦Lemon       ¦Rotating    ?           ?
+#define TXT_SHIP_18						564   // ¦Selected    ¦Cloakable   ¦Tethered    ¦Invul [    ]¦Driving     ?           ?
+#define TXT_SHIP_19						565   // ¦To Look     ¦Unloading   ¦Formation   ?           ?           ?           ?
+#define TXT_SHIP_20						566   // ¦Team:----Mmbrs:-Qnt:-Center:--Target:-+Formation:--+------------+------------?
+#define TXT_SHIP_21						567   // ?       ?     ?   ?       ?       ?           ¦Understrngth¦Moving      ?
+#define TXT_SHIP_22						568   // +Mission:---------------------+---------------------¦FullStrength¦ForcedActive?
+#define TXT_SHIP_23						569   // ?                            ?                    ¦HasBeen     ¦Reforming   ?
 #define TXT_SHIP_24						570   // +-----------------------------------------------------------------------------+
 #define TXT_SHIP_25						571   // <- F11                        Ship                                       F12 ->
 //
