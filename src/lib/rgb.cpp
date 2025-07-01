@@ -34,8 +34,8 @@
 RGBClass RGBClass::Interpolate(RGBClass &from, RGBClass &towards, float amount)
 {
     RGBClass tmp;
-    tmp.Red = std::clamp(from.Red * (1.0f - amount) + towards.Red * amount, 0.0f, 255.0f);
-    tmp.Green = std::clamp(from.Green * (1.0f - amount) + towards.Green * amount, 0.0f, 255.0f);
-    tmp.Blue = std::clamp(from.Blue * (1.0f - amount) + towards.Blue * amount, 0.0f, 255.0f);
+    tmp.Red = tspp::clamp(from.Red * (1.0f - amount) + towards.Red * amount, 0.0f, 255.0f);
+    tmp.Green = tspp::clamp(from.Green * (1.0f - amount) + towards.Green * amount, 0.0f, 255.0f);
+    tmp.Blue = tspp::clamp(from.Blue * (1.0f - amount) + towards.Blue * amount, 0.0f, 255.0f);
     return tmp;
 }

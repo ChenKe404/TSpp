@@ -89,7 +89,7 @@ int INIClass::Get_String(const char *section, const char *entry, char *buffer, i
  */
 int INIClass::Get_Int_Clamp(const char *section, const char *entry, int lo, int hi, int defvalue) const
 {
-    return std::clamp(Get_Int(section, entry, defvalue), lo, hi);
+    return tspp::clamp(Get_Int(section, entry, defvalue), lo, hi);
 }
 
 
@@ -111,7 +111,7 @@ float INIClass::Get_Float(const char *section, const char *entry, float defvalue
  */
 float INIClass::Get_Float_Clamp(const char *section, const char *entry, float lo, float hi, float defvalue) const
 {
-    return std::clamp(Get_Float(section, entry, defvalue), lo, hi);
+    return tspp::clamp(Get_Float(section, entry, defvalue), lo, hi);
 }
 
 
@@ -133,7 +133,7 @@ bool INIClass::Put_Float(const char *section, const char *entry, float value)
  */
 double INIClass::Get_Double_Clamp(const char *section, const char *entry, double lo, double hi, double defvalue) const
 {
-    return std::clamp(Get_Double(section, entry, defvalue), lo, hi);
+    return tspp::clamp(Get_Double(section, entry, defvalue), lo, hi);
 }
 
 

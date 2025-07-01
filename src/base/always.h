@@ -29,7 +29,8 @@
 
 #include "intrinsics.h"
 #include "macros.h"
-
+#include <stdlib.h>
+#include <float.h>
 
 #include <windows.h>
 #define NAME_MAX FILENAME_MAX
@@ -66,11 +67,10 @@
 #define strcasecmp _stricmp
 #define strncasecmp _strnicmp
 
-
 #if __cplusplus < 201703L
 #include <functional>
 
-namespace std
+namespace tspp
 {
     template<class T, class Compare>
     constexpr const T &clamp(const T &v, const T &lo, const T &hi, Compare comp)
